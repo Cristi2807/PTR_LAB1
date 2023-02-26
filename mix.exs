@@ -23,6 +23,11 @@ defmodule PtrLab1.MixProject do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+      {:httpoison, "~> 1.8.0"},
+      {:floki, "~> 0.34.1"},
+      {:poison, "~> 5.0"},
+      {:plug, "~> 1.13"},
+      {:plug_cowboy, "~> 2.0"}
     ]
   end
 end
